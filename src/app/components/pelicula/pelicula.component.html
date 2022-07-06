@@ -1,7 +1,6 @@
 <p>{{titulo}}</p>
-<div *ngIf="mostrarPelicula">
-    <p>jejejeje</p>
 
-</div>
-<button (click)="cambiarTitulo()"> Pulasme</button>
 <button (click)="ocultarPelicula()"> DESTRUYE LA PELI</button>
+<div *ngIf="titulo">
+    <p>{{titulo}}</p>
+</div>
