@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import {MyFC} from './components/MyFirstComponent/MFC.component';
-import { PeliculaComponent } from './component/pelicula/pelicula.component';
+import { PeliculaComponent } from './components/pelicula/pelicula.component';
 import { PruebasComponent } from './components/pruebas/pruebas.component';
 
 
