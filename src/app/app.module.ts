@@ -2,13 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import {MFC} from './components/MyFirstComponent/MFC'
+import {MyFC} from './components/MyFirstComponent/MFC.component';
+import { PeliculaComponent } from './component/pelicula/pelicula.component';
+import { PruebasComponent } from './components/pruebas/pruebas.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MFC
+    MyFC,
+    PeliculaComponent,
+    PruebasComponent
   ],
   imports: [
     BrowserModule

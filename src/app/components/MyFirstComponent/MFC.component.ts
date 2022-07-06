@@ -1,16 +1,12 @@
 import { Component } from "@angular/core";
 
 @Component({
-    selector: 'MFC',
-    //templateUrl()
-    template: ` 
-        <h1>{{titulo}}</h1>
-        <p>{{comentario}}</p>
-        <p>{{year}}</p>
-    `,
+    selector: 'MFC-c',
+    templateUrl: './MFCView.component.html'
+    //template: ``
     //interpolacion de datos {{}}
 })
-export class MFC{
+export class MyFC{
     //se puede tipar
     public titulo:string;
     public comentario: string;
